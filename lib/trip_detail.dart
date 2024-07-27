@@ -304,7 +304,7 @@ class _TripDetailsPageState extends State<TripDetailsPage> {
         padding: const EdgeInsets.all(16.0),
         child: GooglePlaceAutoCompleteTextField(
       textEditingController: controller,
-      googleAPIKey: "AIzaSyAHXqFevxzZXDotQDX0U5iGY7z8AKgm_60",
+      googleAPIKey: "InsertAPIKeyHere",
       inputDecoration: InputDecoration(),
       debounceTime: 800, // default 600 ms,
       isLatLngRequired:true,// if you required coordinates from place detail
